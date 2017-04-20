@@ -1,0 +1,23 @@
+﻿//declaração de vetores
+Array vetor1 = new int[10];
+int[] vetor2 = new int[10];
+
+//declaração junto com inicialização 
+Array vetor3 = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+int[] vetor4 = { 19, 28, 37, 46, 55, 64, 73, 82, 91, 0 };
+
+//atribuiçao de valores 
+int variavel = 22;
+vetor2[0] = 11;
+vetor2[1] = variavel;
+vetor2[2] = Int32.Parse(Console.ReadLine());
+--------------------------------------------
+//visualização com foreach
+foreach (int v in vetor3)
+    Console.WriteLine(v);
+
+//visualização com for
+for (byte i = 0; i < vetor4.Length; i++)
+{
+    Console.WriteLine(vetor4[i]);
+}

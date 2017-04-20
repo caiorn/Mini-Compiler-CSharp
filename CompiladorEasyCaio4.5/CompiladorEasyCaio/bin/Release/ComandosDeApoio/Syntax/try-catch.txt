@@ -1,0 +1,10 @@
+﻿Try-Catch
+try
+{
+    int x = int.Parse(Console.ReadLine());
+}
+catch(Exception)
+{
+    Console.WriteLine("Nao foi Possivel Converter o numero para inteiro");   
+}
+Console.ReadKey();

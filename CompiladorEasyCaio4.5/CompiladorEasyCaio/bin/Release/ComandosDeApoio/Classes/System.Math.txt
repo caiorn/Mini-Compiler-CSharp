@@ -1,0 +1,22 @@
+﻿double valordePi  = Math.PI;        //3.1415...
+double raizQuadrada = Math.Sqrt(9);   //3 (3x3 = 9)
+double elevacao     = Math.Pow(2, 3); //8 (2x2x2 = 8)
+                
+double  valorMaior = Math.Max(3.2, 4.5);  //4.5
+int     valorMenor = Math.Min(-3, -2);    //-3;
+                
+double qtdCasasDecimais = Math.Round(3.22341, 3); //3.223
+                
+int arrendondaCima = (int)Math.Ceiling(8.4); //9
+int arredondaBaixo = (int)Math.Floor(8.8);   //8
+                
+//arrendondara o inteiro mais proximo,
+int arredonda = (int)Math.Round(0.4);       //0
+//===========================================================
+//   se o número a ser arredondado está na metade do caminho 
+//   entre um inteiro e outro (ex.: 0.5) ele sempre          
+//   arredondará para o número par:                          
+//   Math.Round(0.5); = 0                                    
+//   Math.Round(1.5); = 2                                    
+//   Math.Round(2.5); = 2                                    
+//===========================================================

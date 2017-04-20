@@ -1,0 +1,36 @@
+﻿Console.WriteLine("Digite seu Nome (1/4)");
+string nome = Console.ReadLine();
+Console.WriteLine("Digite sua Idade (2/4)");
+int idade = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite sua Altura (4/4)");
+float altura = float.Parse(Console.ReadLine());
+            
+//If-Else
+if(idade > 100 && (altura > 2.5 || altura < 1))
+    Console.WriteLine("{0} você Mentiu! não tem {1} anos, nem {2} de altura", nome, idade, altura);
+else if(idade >= 18 && idade <= 100)
+    Console.WriteLine("{0} você é maior de Idade", nome);
+else if(idade < 18 && idade > 0)
+    Console.WriteLine("{0} você é menor de Idade", nome);
+else
+    Console.WriteLine("{0} nada", nome);
+
+            
+Console.WriteLine("Digite seu Sexo M ou F");
+char sexo = char.Parse(Console.ReadLine());
+//Switch-Case
+switch(sexo) //string, int, char, bool
+{
+    case 'F':
+    case 'f':
+        Console.WriteLine("{0} você é Mulher", nome);
+        break;
+    case 'm':
+    case 'M':
+        Console.WriteLine("{0} você é Homem", nome);
+        break;
+    default:
+        Console.WriteLine("{0} você é {1}", nome, sexo);
+        break;
+}
+Console.ReadKey();

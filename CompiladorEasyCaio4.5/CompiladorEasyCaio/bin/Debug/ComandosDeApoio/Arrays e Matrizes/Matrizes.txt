@@ -1,0 +1,28 @@
+﻿//declaração de matrizes
+char[,] matriz1 = new char[3, 2]; //Linhas e colunas
+
+//atribuiçao de valores
+matriz1[0, 0] = 'a'; //linha 0 e coluna 0 
+matriz1[0, 1] = 'b'; //linha 0 e coluna 1
+matriz1[1, 0] = 'c';
+matriz1[1, 1] = 'd';
+matriz1[2, 0] = 'e';
+matriz1[2, 1] = 'f';
+
+//declaração de matrizes com inicalizaçao de valores
+string[,] matriz2 = new string[,] { 
+    {"linha0-Coluna0","linha0-Coluna 1", "linha0-Coluna 2" },//[0,0] , [0,1], [0,2]
+    {"linha1-Coluna0","linha1-Coluna 1", "linha1-Coluna 2" },//[1,0] , [1,1], [1,2]
+    //Mesmo que new string[2,3]
+};
+
+
+//visualizaçao com foreach
+foreach (char c in matriz1) 
+    Console.WriteLine(c);  
+              
+//visualização com for
+for (int linha = 0; linha < matriz2.GetLength(0); linha++)        //matriz2.GetLength(0) = 2;     
+    for (int coluna = 0; coluna < matriz2.GetLength(1); coluna++) //matriz2.GetLength(1) = 3               
+        Console.WriteLine("Dimensoes: [" + linha.ToString() + "," + coluna.ToString() + "] =" + 
+                            matriz2[linha, coluna]);

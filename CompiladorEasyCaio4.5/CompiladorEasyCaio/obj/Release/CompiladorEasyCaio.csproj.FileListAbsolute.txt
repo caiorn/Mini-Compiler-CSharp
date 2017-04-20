@@ -1,0 +1,15 @@
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\bin\Release\CompiladorEasyCaio.exe.config
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\CompiladorEasyCaio.csprojResolveAssemblyReference.cache
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\CompiladorEasyCaio.Comandos.resources
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\CompiladorEasyCaio.Form1.resources
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\CompiladorEasyCaio.Properties.Resources.resources
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\CompiladorEasyCaio.Sobre.resources
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\CompiladorEasyCaio.Sobre.pt-BR.resources
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\CompiladorEasyCaio.csproj.GenerateResource.Cache
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\bin\Release\CompiladorEasyCaio.exe
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\bin\Release\CompiladorEasyCaio.pdb
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\bin\Release\pt-BR\CompiladorEasyCaio.resources.dll
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\bin\Release\FastColoredTextBox.dll
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\pt-BR\CompiladorEasyCaio.resources.dll
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\CompiladorEasyCaio.exe
+C:\Users\CAIO\Desktop\CompiladorEasyCaio4.4\CompiladorEasyCaio\obj\Release\CompiladorEasyCaio.pdb

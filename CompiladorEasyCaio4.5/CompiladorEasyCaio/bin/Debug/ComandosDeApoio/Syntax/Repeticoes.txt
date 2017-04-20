@@ -1,0 +1,32 @@
+﻿//Do-While
+string resp;
+do
+{
+    Console.WriteLine("Só paro se digitar 'sair'");
+    resp = Console.ReadLine();
+} while(resp != "sair");
+
+//While       
+int n = 20;
+while(n != 0)
+{
+    Console.Write("{0} ", n);
+    n--;
+}
+    Console.WriteLine("");
+
+//For
+n = 20;
+for(int i = 1; i <= n; i++)
+{
+    Console.Write("{0} ", i); //1, 2, 3, 4...
+}
+
+//Foreach
+char[] vetor = { 'a', 'b', 'c', 'd', 'e' };
+foreach(char posicao in vetor)
+{
+    Console.WriteLine(posicao);
+}
+
+Console.ReadKey();

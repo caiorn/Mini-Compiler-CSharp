@@ -1,0 +1,25 @@
+﻿//o método Next mais simples, retorna um inteiro maior ou igual ao valor min e menor que o valor max
+int numSortedo = aleatorio.Next(2, 5); //+1 as end is excluded.
+--------------------------------------------------------------------------------
+//prencher o array com numeros randomicos maior ou igual de 0 a 255
+Random rnd = new Random();           
+byte[] b = new byte[5]; 
+rnd.NextBytes(b); 
+/*
+* output example:
+* b[0] = 0
+* b[1] = 16
+* b[2] = 189
+* b[3] = 255
+* b[4] = 36            
+*/
+-------------------------------------------------------------------------------
+//O método NextDouble gera valores entre 0 e 1
+Random random = new Random();
+//gera numeros com até 16 casas decimais ex: 0.2105142654154274
+Console.WriteLine(random.NextDouble()); 
+            
+//é possivel definir a quantidade de casas decimais ultilizando o metodo Round da classe Math
+Console.WriteLine(Math.Round(random.NextDouble(), 2)); 
+//Outputs: 0, 0.1, 0.23, 0.6, 0.67, 1
+//Detalhe: utilizando esse método as casas decimais que terminam com 0 são excluidas
