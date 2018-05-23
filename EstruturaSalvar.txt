@@ -1,0 +1,39 @@
+bool foiAberto = false
+string nome
+
+
+ev novo
+    foiAberto = false;
+ 
+ev abrir
+    if(abrir)
+       foiAberto= true
+       btnSalvar = false
+    
+ev salvar
+    if(foiAberto && exist) 
+       if(Salvar())
+          goto 2;
+    else if(SalvarComo())
+          goto 1:
+    goto 1:
+       foiAberto = true//new
+    goto 2:
+        nome = filename
+        text = "saved"
+        btnSalvar = false
+     
+ev salvarComo
+    if(SalvarComo())
+      text = nome + saved
+      btnSalvar = false
+ 
+ 
+ev TextChange
+    if(txt.text != inicio)
+      text = "no saved"
+      btnSalva = true
+    
+ bool abrir()
+ bool salvar()
+ bool salvarComo()
