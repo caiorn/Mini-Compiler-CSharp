@@ -5,6 +5,9 @@ Projeto criado no Visual Studio Express 2012 for Desktop em Window Forms para fi
 
 Leve e simples, Feito para poder praticar a programação no modo Console Application no framework 4.0 sem a necessidade de instalar a IDE, é necessário ter .net framework 4.0.
 
+tamanho: 500kb
+baixar executavel: https://sourceforge.net/projects/mini-compilador-c-compil/
+
 --------------------------------
 ### Interface
 ![](/images/demo1.png)
